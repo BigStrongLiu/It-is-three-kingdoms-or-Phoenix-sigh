@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: ab7d8f252951f0c42ad5ee0acaba99fc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: biped
+    100002: biped Footsteps
+    100004: biped Head
+    100006: biped HeadNub
+    100008: biped L Calf
+    100010: biped L Clavicle
+    100012: biped L Finger0
+    100014: biped L Finger0Nub
+    100016: biped L Foot
+    100018: biped L Forearm
+    100020: biped L Hand
+    100022: biped L HorseLink
+    100024: biped L Thigh
+    100026: biped L Toe0
+    100028: biped L Toe0Nub
+    100030: biped L UpperArm
+    100032: biped Neck
+    100034: biped Pelvis
+    100036: biped Ponytail1
+    100038: biped Ponytail1Nub
+    100040: biped R Calf
+    100042: biped R Clavicle
+    100044: biped R Finger0
+    100046: biped R Finger0Nub
+    100048: biped R Foot
+    100050: biped R Forearm
+    100052: biped R Hand
+    100054: biped R HorseLink
+    100056: biped R Thigh
+    100058: biped R Toe0
+    100060: biped R Toe0Nub
+    100062: biped R UpperArm
+    100064: biped Spine
+    100066: biped Spine1
+    100068: biped Tail
+    100070: biped Tail1
+    100072: biped Tail2
+    100074: biped Tail3
+    100076: biped Tail4
+    100078: biped Tail5
+    100080: biped TailNub
+    100082: Bone001
+    100084: Bone002
+    100086: Bone003
+    100088: Bone004
+    100090: DamagePart
+    100092: //RootNode
+    100094: G2l
+    100096: HPPoint
+    100098: Skill1
+    100100: Skill2
+    400000: biped
+    400002: biped Footsteps
+    400004: biped Head
+    400006: biped HeadNub
+    400008: biped L Calf
+    400010: biped L Clavicle
+    400012: biped L Finger0
+    400014: biped L Finger0Nub
+    400016: biped L Foot
+    400018: biped L Forearm
+    400020: biped L Hand
+    400022: biped L HorseLink
+    400024: biped L Thigh
+    400026: biped L Toe0
+    400028: biped L Toe0Nub
+    400030: biped L UpperArm
+    400032: biped Neck
+    400034: biped Pelvis
+    400036: biped Ponytail1
+    400038: biped Ponytail1Nub
+    400040: biped R Calf
+    400042: biped R Clavicle
+    400044: biped R Finger0
+    400046: biped R Finger0Nub
+    400048: biped R Foot
+    400050: biped R Forearm
+    400052: biped R Hand
+    400054: biped R HorseLink
+    400056: biped R Thigh
+    400058: biped R Toe0
+    400060: biped R Toe0Nub
+    400062: biped R UpperArm
+    400064: biped Spine
+    400066: biped Spine1
+    400068: biped Tail
+    400070: biped Tail1
+    400072: biped Tail2
+    400074: biped Tail3
+    400076: biped Tail4
+    400078: biped Tail5
+    400080: biped TailNub
+    400082: Bone001
+    400084: Bone002
+    400086: Bone003
+    400088: Bone004
+    400090: DamagePart
+    400092: //RootNode
+    400094: G2l
+    400096: HPPoint
+    400098: Skill1
+    400100: Skill2
+    4300000: G2l
+    9500000: //RootNode
+    13700000: G2l
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
