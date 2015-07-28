@@ -54,10 +54,10 @@
      <Compile Include="Assets\ThirdParty\EasyTouch\Plugins\Editor\GUIEasyTouchMenu.cs" />
      <Compile Include="Assets\ThirdParty\EasyTouch\Plugins\Editor\GUIEasytouchCallBack.cs" />
      <Compile Include="Assets\ThirdParty\EasyTouch\Plugins\Editor\HTGUILayout.cs" />
-     <None Include="Assets\Resource\Shader\Highlight.shader" />
-     <None Include="Assets\Resource\File\Local\zh_CN.txt" />
-     <None Include="Assets\Resource\Shader\Unlit - Transparent Colored (Mask).shader" />
-     <None Include="Assets\Resource\Shader\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\Shader\Highlight.shader" />
+     <None Include="Assets\Resources\File\Local\zh_CN.txt" />
+     <None Include="Assets\Resources\Shader\Unlit - Transparent Colored (Mask).shader" />
+     <None Include="Assets\Resources\Shader\Unlit - Transparent Colored.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

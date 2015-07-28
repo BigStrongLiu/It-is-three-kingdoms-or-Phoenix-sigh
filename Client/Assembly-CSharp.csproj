@@ -48,11 +48,19 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Const\AssetName.cs" />
      <Compile Include="Assets\Script\Const\AssetPath.cs" />
+     <Compile Include="Assets\Script\Const\LayerConst.cs" />
      <Compile Include="Assets\Script\Const\UIConst.cs" />
      <Compile Include="Assets\Script\Controller\LoadLevelController.cs" />
+     <Compile Include="Assets\Script\Controller\LogicController.cs" />
      <Compile Include="Assets\Script\Controller\TouchController.cs" />
      <Compile Include="Assets\Script\Controller\UIController.cs" />
-     <Compile Include="Assets\Script\Data\GridData.cs" />
+     <Compile Include="Assets\Script\Data\Config\ActorData.cs" />
+     <Compile Include="Assets\Script\Data\Config\GridData.cs" />
+     <Compile Include="Assets\Script\Data\Config\LevelData.cs" />
+     <Compile Include="Assets\Script\Data\Logic\ActorLogicData.cs" />
+     <Compile Include="Assets\Script\Data\Logic\LevelLogicData.cs" />
+     <Compile Include="Assets\Script\Enum\AIStateType.cs" />
+     <Compile Include="Assets\Script\Enum\ActorType.cs" />
      <Compile Include="Assets\Script\Enum\AlertOptionType.cs" />
      <Compile Include="Assets\Script\Enum\DirectionType.cs" />
      <Compile Include="Assets\Script\Enum\GameSceneType.cs" />
@@ -63,9 +71,24 @@
      <Compile Include="Assets\Script\Enum\SortType.cs" />
      <Compile Include="Assets\Script\Enum\TimeFormatType.cs" />
      <Compile Include="Assets\Script\Enum\UIPanelType.cs" />
+     <Compile Include="Assets\Script\Fight\AI\ActorAIBase.cs" />
+     <Compile Include="Assets\Script\Fight\ActorBehaviour\ActorBevBase.cs" />
+     <Compile Include="Assets\Script\Fight\ActorBehaviour\EnemyBev.cs" />
+     <Compile Include="Assets\Script\Fight\ActorBehaviour\PlayerBev.cs" />
+     <Compile Include="Assets\Script\Fight\StateMachine\AttakState.cs" />
+     <Compile Include="Assets\Script\Fight\StateMachine\DeadState.cs" />
+     <Compile Include="Assets\Script\Fight\StateMachine\HurtState.cs" />
+     <Compile Include="Assets\Script\Fight\StateMachine\IState.cs" />
+     <Compile Include="Assets\Script\Fight\StateMachine\IdleState.cs" />
+     <Compile Include="Assets\Script\Fight\StateMachine\StateBase.cs" />
+     <Compile Include="Assets\Script\Fight\StateMachine\StateMachine.cs" />
      <Compile Include="Assets\Script\Manager\FightMgr.cs" />
-     <Compile Include="Assets\Script\Manager\UIPoolMgr.cs" />
+     <Compile Include="Assets\Script\Manager\PoolMgr.cs" />
+     <Compile Include="Assets\Script\Module\ActorMoudle.cs" />
+     <Compile Include="Assets\Script\Module\LevelModule.cs" />
+     <Compile Include="Assets\Script\Test\FightTest.cs" />
      <Compile Include="Assets\Script\Test\TestController.cs" />
+     <Compile Include="Assets\Script\Tool\DontDestroyOnLoadTool.cs" />
      <Compile Include="Assets\Script\Tool\FixedPanelDepthTool.cs" />
      <Compile Include="Assets\Script\Tool\LightmapTool.cs" />
      <Compile Include="Assets\Script\UI\Base\ComponentBase.cs" />
@@ -109,10 +132,10 @@
      <Compile Include="Assets\ThirdParty\Tween\Gizmo.cs" />
      <Compile Include="Assets\ThirdParty\Tween\iTween.cs" />
      <Compile Include="Assets\ThirdParty\Tween\iTweenHinting.cs" />
-     <None Include="Assets\Resource\Shader\Highlight.shader" />
-     <None Include="Assets\Resource\File\Local\zh_CN.txt" />
-     <None Include="Assets\Resource\Shader\Unlit - Transparent Colored (Mask).shader" />
-     <None Include="Assets\Resource\Shader\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\Shader\Highlight.shader" />
+     <None Include="Assets\Resources\File\Local\zh_CN.txt" />
+     <None Include="Assets\Resources\Shader\Unlit - Transparent Colored (Mask).shader" />
+     <None Include="Assets\Resources\Shader\Unlit - Transparent Colored.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

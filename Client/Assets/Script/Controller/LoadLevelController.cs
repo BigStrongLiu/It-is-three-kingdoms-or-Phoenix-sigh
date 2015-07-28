@@ -6,11 +6,8 @@ using System;
 
 public sealed class LoadLevelController : MonoBehaviour
 {
-    public Texture2D LoadLevelTexture;
     public static LoadLevelController Instance { get; private set; }
     public GameSceneType CurrentScene { get; private set; }
-
-    private bool m_LoadingLevel;
 
     #region MonoBehaviour methods
 
@@ -20,31 +17,14 @@ public sealed class LoadLevelController : MonoBehaviour
         this.CurrentScene = GameSceneType.LoginScene;
     }
 
-    void OnGUI()
-    {
-        if (this.m_LoadingLevel && this.LoadLevelTexture != null)
-        {
-            Rect rect = new Rect(0, 0, Screen.width, Screen.height);
-            GUI.DrawTexture(rect, this.LoadLevelTexture);
-        }
-    }
-
     #endregion
 
     #region LoadLevel
-
-    public void LoadPVEFight()
-    {
-
-    }
 
     public void LoadLevel(GameSceneType level)
     {
         UIController.Instance.RemoveAllTip();
         UIController.Instance.CloseAllOpendPanel();
-        this.m_LoadingLevel = true;
-
-
         StopAllCoroutines();
         StartCoroutine(this.LoadLevelInspector(level));
     }
@@ -72,22 +52,14 @@ public sealed class LoadLevelController : MonoBehaviour
 
     private IEnumerator DelayOpenPanel(GameSceneType lastLevel)
     {
-        //Debug.Log("DelayOpenPanel : ");
         yield return new WaitForSeconds(0.2f);
-        //Debug.Log("DelayOpenPanel  WaitForSeconds: ");
-
-        EasyTouch.instance.touchCameras[0] = new ECamera(Camera.main, false);
         switch (this.CurrentScene)
         {
             case GameSceneType.LoginScene:
-                EasyTouch.instance.enabledNGuiMode = false;
-                break;
-            case GameSceneType.MainScene:
                 break;
             default:
                 break;
         }
-        this.m_LoadingLevel = false;
     }
 
     #endregion

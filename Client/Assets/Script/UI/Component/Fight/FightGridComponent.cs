@@ -11,17 +11,23 @@ public class FightGridComponent : ComponentBase
     public float BorderZLength;
     public GridData[,] EnemyGirds { get; private set; }
     public GridData[,] PlayerGirds { get; private set; }
+    public bool DrawGrid;
 
+    [SerializeField]
     private float m_CenterX;
+    [SerializeField]
     private float m_CenterZ;
 
     #region MonoBehaviour methods
 
     void OnDrawGizmos()
     {
-        this.DrawEnemyGrid();
-        this.DrawPlayerGrid();
-        this.DrawBorder(); 
+        if (this.DrawGrid)
+        {
+            this.DrawEnemyGrid();
+            this.DrawPlayerGrid();
+            this.DrawBorder();
+        }
     }
 
     #endregion
@@ -74,9 +80,9 @@ public class FightGridComponent : ComponentBase
                 float positionX = (x - this.m_CenterX) * this.GridXLength;
                 Vector3 center = new Vector3(positionX, 0, positionZ);
                 Vector3 size = new Vector3(this.GridXLength, 0, this.GridZLength);
-                Gizmos.color = Color.cyan;
-                Gizmos.DrawCube(center, size);
                 Gizmos.color = Color.red;
+                Gizmos.DrawCube(center, size);
+                Gizmos.color = Color.black;
                 Gizmos.DrawWireCube(center, size);
             }
         }
@@ -94,7 +100,7 @@ public class FightGridComponent : ComponentBase
                 Vector3 size = new Vector3(this.GridXLength, 0, this.GridZLength);
                 Gizmos.color = Color.green;
                 Gizmos.DrawCube(center, size);
-                Gizmos.color = Color.blue;
+                Gizmos.color = Color.black;
                 Gizmos.DrawWireCube(center, size);
             }
         }
@@ -104,8 +110,9 @@ public class FightGridComponent : ComponentBase
     {
         Vector3 center = Vector3.zero;
         Vector3 size = new Vector3(this.GridXLength * this.XGridCount, 0, this.GridZLength);
-        Gizmos.color = Color.gray;
+        Gizmos.color = Color.blue;
         Gizmos.DrawCube(center, size);
+        Gizmos.color = Color.black;
         Gizmos.DrawWireCube(center, size);
     }
 
@@ -120,14 +127,25 @@ public class FightGridComponent : ComponentBase
 
     #region public methods
 
-    public Vector3 ConvertGridToPosition(GridData data)
+    public Vector3 ConvertGridToPosition(GridData data, ActorType type)
     {
-        return Vector3.zero;
+        float positionX = (data.XGrid - this.m_CenterX) * this.GridXLength; ; 
+        float positionZ = (data.ZGrid + this.m_CenterZ) * this.GridZLength * ((type == ActorType.Enemy)?1:-1);
+        return new Vector3(positionX,0,positionZ);
     }
 
-    public GridData ConvertPositionToGrid(Vector3 position)
+    public GridData ConvertPositionToGrid(Vector3 position,ActorType type)
     {
         return new GridData();
+    }
+
+    public GridData ConvertIndexToGridData(byte index)
+    {
+        return new GridData()
+        {
+            ZGrid =(byte)( index / this.XGridCount),
+            XGrid = (byte)(index%this.XGridCount)
+        };
     }
 
     #endregion
