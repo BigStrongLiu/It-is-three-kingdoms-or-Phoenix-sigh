@@ -60,7 +60,7 @@ public class FightMgr : MonoBehaviour
     private T InstantiateActor<T>(int id) where T : ActorBevBase
     {
         ActorData actorData = LogicController.Instance.Actor.GetActorDataByID(id);
-        GameObject actor = PoolMgr.Instance.GetModel(AssetPath.Actor + actorData.AssetName);
+        GameObject actor = PoolMgr.Instance.GetModel(AssetPathConst.Actor + actorData.AssetName);
         TransUtils.ChangeLayer(actor.transform, LayerConst.Actor);
         return actor.AddComponent<T>();
     }

@@ -1,4 +1,4 @@
-﻿public struct AssetPath
+﻿public struct AssetPathConst
 {
     public const string Component_Common = "UI/Component/Common/";
     public const string Panel_Login = "UI/Panel/Login/";

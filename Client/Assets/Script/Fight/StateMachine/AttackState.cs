@@ -10,16 +10,14 @@ public class AttackState : StateBase
 
     public override void Enter()
     {
-        throw new NotImplementedException();
+        this.actorAI.Attack();
     }
 
     public override void Execute()
     {
-        throw new NotImplementedException();
     }
 
     public override void Exit()
     {
-        throw new NotImplementedException();
     }
 }

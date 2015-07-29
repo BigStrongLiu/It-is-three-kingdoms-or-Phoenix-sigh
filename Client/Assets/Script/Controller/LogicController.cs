@@ -13,12 +13,12 @@
     }
     private static  LogicController m_Instance;
 
-    public ActorMoudle Actor { get; private set; }
+    public ActorModule Actor { get; private set; }
     public LevelModule Level { get; private set; }
 
     public LogicController()
     {
-        this.Actor = new ActorMoudle();
+        this.Actor = new ActorModule();
         this.Level = new LevelModule();
     }
 }

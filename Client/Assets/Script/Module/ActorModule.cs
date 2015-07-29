@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-public sealed class ActorMoudle
+public sealed class ActorModule
 {
     /// <summary>
     /// UID,index
@@ -10,7 +10,7 @@ public sealed class ActorMoudle
     private Dictionary<long, ActorLogicData> m_ActorLogicDic;
     public Dictionary<int, ActorData> m_ActorConfigDic;
 
-    public ActorMoudle()
+    public ActorModule()
     {
         this.InitActor();
         Dictionary<byte,long> battleArray = new Dictionary< byte,long>();

@@ -1,4 +1,4 @@
-﻿public struct AssetName
+﻿public struct AssetNameConst
 {
     public const string Tip = "TipComponent";
     public const string PropItem = "PropItemComponent";

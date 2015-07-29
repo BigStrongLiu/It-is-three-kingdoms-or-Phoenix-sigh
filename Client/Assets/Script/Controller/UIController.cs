@@ -97,7 +97,7 @@ public class UIController : MonoBehaviour
     {
         this.RemoveAllTip();
         // 获取浮动提示框
-        TipComponent tipComp = PoolMgr.Instance.GetComponent<TipComponent>(AssetPath.Component_Common + AssetName.Tip);
+        TipComponent tipComp = PoolMgr.Instance.GetComponent<TipComponent>(AssetPathConst.Component_Common + AssetNameConst.Tip);
         if (tipComp != null)
         {
             tipComp.MyTransform.SetParent(this.TopPanel);
@@ -221,7 +221,7 @@ public class UIController : MonoBehaviour
             this.m_BackupUICameraStatus = true;
             this.DisableUICamera();
             // 获取加载图标
-            this.m_LoadingComp = PoolMgr.Instance.GetComponent<LoadingComponent>(AssetPath.Component_Common + AssetName.Loading);
+            this.m_LoadingComp = PoolMgr.Instance.GetComponent<LoadingComponent>(AssetPathConst.Component_Common + AssetNameConst.Loading);
            this.m_LoadingComp.MyTransform.SetParent(this.TopPanel);
             this.m_LoadingComp.MyTransform.localPosition = Vector3.zero;
         }

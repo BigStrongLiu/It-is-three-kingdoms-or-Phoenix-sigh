@@ -45,22 +45,22 @@ public sealed class PoolMgr : MonoBehaviour
 
     private void RegisterPanelForLogin(UIPanelType type)
     {
-        this.ReigsterPanelAsset(type, AssetPath.Panel_Login + type);
+        this.ReigsterPanelAsset(type, AssetPathConst.Panel_Login + type);
     }
 
     private void RegisterPanelForMain(UIPanelType type)
     {
-        this.ReigsterPanelAsset(type, AssetPath.Panel_Main + type);
+        this.ReigsterPanelAsset(type, AssetPathConst.Panel_Main + type);
     }
 
     private void RegisterPanelForFight(UIPanelType type)
     {
-        this.ReigsterPanelAsset(type, AssetPath.Panel_Fight + type);
+        this.ReigsterPanelAsset(type, AssetPathConst.Panel_Fight + type);
     }
 
     private void RegisterPanelForCommon(UIPanelType type)
     {
-        this.ReigsterPanelAsset(type, AssetPath.Panel_Common + type);
+        this.ReigsterPanelAsset(type, AssetPathConst.Panel_Common + type);
     }
 
     private void ReigsterPanelAsset(UIPanelType type, string assetName)
@@ -193,7 +193,7 @@ public sealed class PoolMgr : MonoBehaviour
 
     public Transform GetUIEffect(string effectName, Transform parent = null)
     {
-        GameObject prefab = this.GetPrefab(AssetPath.Effect_UI + effectName);
+        GameObject prefab = this.GetPrefab(AssetPathConst.Effect_UI + effectName);
         if (prefab == null) return null;
         UnityEngine.Object obj = Instantiate(prefab);
         Transform effect = (obj as GameObject).transform;
