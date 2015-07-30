@@ -1,7 +1,8 @@
 ﻿public class PlayerBev:ActorBevBase
     {
-    void Awake()
+
+    protected override void SetActorType()
     {
-        this.Type = ActorType.Player;
+        this.SetActorType(ActorType.Player);
     }
 }

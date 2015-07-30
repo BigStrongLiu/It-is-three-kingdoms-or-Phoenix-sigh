@@ -1,8 +1,8 @@
 ﻿public class EnemyBev:ActorBevBase
     {
 
-    void Awake()
+    protected override void SetActorType()
     {
-        this.Type = ActorType.Enemy;
+        this.SetActorType(ActorType.Enemy);
     }
 }
