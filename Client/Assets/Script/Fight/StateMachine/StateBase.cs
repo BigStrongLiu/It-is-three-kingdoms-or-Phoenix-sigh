@@ -2,10 +2,12 @@
 {
     public AIStateType AIState { get; protected set; }
 
-    protected ActorAIBase actorAI;
-    public StateBase(ActorAIBase actor)
+    protected ActorBevBase actorBev { get; private set; }
+    protected ActorAIBase actorAI { get; private set; }
+    public StateBase(ActorBevBase actorBev, ActorAIBase actorAI)
     {
-        this.actorAI = actor;
+        this.actorBev = actorBev;
+        this.actorAI = actorAI;
     }
     public abstract void Enter();
     public abstract void Execute();

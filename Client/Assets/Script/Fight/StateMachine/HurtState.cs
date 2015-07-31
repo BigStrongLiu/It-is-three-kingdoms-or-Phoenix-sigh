@@ -2,24 +2,21 @@
 
 public class HurtState : StateBase
 {
-    public HurtState(ActorAIBase actor) : 
-        base(actor)
+    public HurtState(ActorBevBase actorBev, ActorAIBase actorAI) :
+        base(actorBev, actorAI)
     {
         this.AIState = AIStateType.Hurt;
     }
 
     public override void Enter()
     {
-        throw new NotImplementedException();
     }
 
     public override void Execute()
     {
-        throw new NotImplementedException();
     }
 
     public override void Exit()
     {
-        throw new NotImplementedException();
     }
 }

@@ -2,8 +2,8 @@
 
 public class IdleState : StateBase
 {
-    public IdleState(ActorAIBase actor) :
-        base(actor)
+    public IdleState(ActorBevBase actorBev, ActorAIBase actorAI) :
+        base(actorBev, actorAI)
     {
         this.AIState = AIStateType.Idle;
     }
@@ -13,11 +13,9 @@ public class IdleState : StateBase
 
     public override void Execute()
     {
-        throw new NotImplementedException();
     }
 
     public override void Exit()
     {
-        throw new NotImplementedException();
     }
 }

@@ -19,8 +19,12 @@ public class ActorAIBase : MonoBehaviour
 
     void Start()
     {
-        this.m_StateMachine = new StateMachine(this);
         this.m_StateMachine.SetCurState(AIStateType.Idle);
+    }
+
+    void Update()
+    {
+        this.m_StateMachine.Update();
     }
 
     #endregion
@@ -35,6 +39,16 @@ public class ActorAIBase : MonoBehaviour
     public void Attack()
     {
         this.Animator.Attack();
+    }
+
+    public void Moves()
+    {
+        this.m_StateMachine.SetCurState(AIStateType.Attack);
+    }
+
+    public void InitStateMachine(ActorBevBase actorBev)
+    {
+        this.m_StateMachine = new StateMachine(actorBev,this);
     }
     #endregion
 }
