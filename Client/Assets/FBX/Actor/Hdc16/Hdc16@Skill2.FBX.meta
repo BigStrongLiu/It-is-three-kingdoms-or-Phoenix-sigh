@@ -239,7 +239,7 @@ ModelImporter:
       curves: []
       events:
       - time: .465603799
-        functionName: StartAttackDamage
+        functionName: Attacked
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

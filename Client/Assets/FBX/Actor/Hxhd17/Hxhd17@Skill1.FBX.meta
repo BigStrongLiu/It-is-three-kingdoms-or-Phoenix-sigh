@@ -199,14 +199,14 @@ ModelImporter:
       curves: []
       events:
       - time: .661971807
-        functionName: StartAttackDamage
+        functionName: Attacked
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0
-        functionName: StorageCapacity
+        functionName: Charge
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
