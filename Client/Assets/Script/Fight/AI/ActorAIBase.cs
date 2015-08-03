@@ -41,14 +41,27 @@ public class ActorAIBase : MonoBehaviour
         this.Animator.Attack();
     }
 
+    /// <summary>
+    /// 准备出招
+    /// </summary>
     public void Moves()
     {
-        this.m_StateMachine.SetCurState(AIStateType.Attack);
+        this.m_StateMachine.ChangeState(AIStateType.Attack);
+    }
+
+    /// <summary>
+    /// 共计完成 
+    /// 切换状态
+    /// </summary>
+    public void AttackComplete()
+    {
+        this.m_StateMachine.ChangeState(AIStateType.Idle);
     }
 
     public void InitStateMachine(ActorBevBase actorBev)
     {
         this.m_StateMachine = new StateMachine(actorBev,this);
     }
+
     #endregion
 }

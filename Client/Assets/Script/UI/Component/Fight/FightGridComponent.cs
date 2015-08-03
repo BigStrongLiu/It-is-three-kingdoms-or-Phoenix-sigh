@@ -65,7 +65,7 @@ public class FightGridComponent : ComponentBase
         {
             for (byte x = 0; x < this.XGridCount; x++)
             {
-                this.PlayerGirds[z,x] = new GridData() { ZGrid = z,XGrid = x };
+                this.PlayerGirds[z, x] = new GridData() { ZGrid = z, XGrid = x };
             }
         }
     }
@@ -92,7 +92,7 @@ public class FightGridComponent : ComponentBase
     {
         for (byte z = 0; z < this.PlayerZGridCount; z++)
         {
-            float positionZ = -(z+this.m_CenterZ) * this.GridZLength;
+            float positionZ = -(z + this.m_CenterZ) * this.GridZLength;
             for (byte x = 0; x < this.XGridCount; x++)
             {
                 float positionX = (x - this.m_CenterX) * this.GridXLength;
@@ -129,12 +129,12 @@ public class FightGridComponent : ComponentBase
 
     public Vector3 ConvertGridToPosition(GridData data, ActorType type)
     {
-        float positionX = (data.XGrid - this.m_CenterX) * this.GridXLength; ; 
-        float positionZ = (data.ZGrid + this.m_CenterZ) * this.GridZLength * ((type == ActorType.Enemy)?1:-1);
-        return new Vector3(positionX,0,positionZ);
+        float positionX = (data.XGrid - this.m_CenterX) * this.GridXLength; ;
+        float positionZ = (data.ZGrid + this.m_CenterZ) * this.GridZLength * ((type == ActorType.Enemy) ? 1 : -1);
+        return new Vector3(positionX, 0, positionZ);
     }
 
-    public GridData ConvertPositionToGrid(Vector3 position,ActorType type)
+    public GridData ConvertPositionToGrid(Vector3 position, ActorType type)
     {
         return new GridData();
     }
@@ -143,9 +143,51 @@ public class FightGridComponent : ComponentBase
     {
         return new GridData()
         {
-            ZGrid =(byte)( index / this.XGridCount),
-            XGrid = (byte)(index%this.XGridCount)
+            ZGrid = (byte)(index / this.XGridCount),
+            XGrid = (byte)(index % this.XGridCount)
         };
+    }
+
+    public byte ConvertGridDataToIndex(GridData data)
+    {
+        return (byte)(data.XGrid * this.XGridCount + data.ZGrid);
+    }
+
+    public byte GetMaxMagnitudeDistance()
+    {
+        return (byte)(Mathf.Pow(this.XGridCount, 2) + Mathf.Pow(this.PlayerZGridCount + this.EnemyZGridCount, 2));
+    }
+
+    public byte GetMaxIndex()
+    {
+        return (byte)(Mathf.Max(this.EnemyZGridCount, this.PlayerZGridCount) * this.XGridCount - 1);
+    }
+
+    public byte CalculateMagnitudeDistance(GridData grid0, GridData grid1, bool isTwoCamp)
+    {
+        if (isTwoCamp)
+        {
+            return (byte)(Mathf.Pow(grid0.XGrid - grid1.XGrid, 2) + Mathf.Pow(grid0.ZGrid + grid1.ZGrid + 1, 2));
+        }
+        else
+        {
+            return (byte)(Mathf.Pow(grid0.XGrid - grid1.XGrid, 2) + Mathf.Pow(grid0.ZGrid - grid1.ZGrid, 2));
+        }
+    }
+
+    public Vector3 GetMovesOffset(ActorType targetType)
+    {
+        switch (targetType)
+        {
+            case ActorType.Enemy:return new Vector3(0,0,-this.GridZLength/2);
+            case ActorType.Player: return new Vector3(0, 0, this.GridZLength / 2);
+        }
+        return Vector3.zero;
+    }
+
+    public Vector3 GetMovesPosition(ActorBevBase targetBev)
+    {
+        return targetBev.MyTransform.position + this.GetMovesOffset(targetBev.Type);
     }
 
     #endregion

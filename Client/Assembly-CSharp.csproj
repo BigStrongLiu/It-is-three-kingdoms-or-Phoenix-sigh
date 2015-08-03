@@ -132,6 +132,7 @@
      <Compile Include="Assets\ThirdParty\EasyTouch\Plugins\MonoSingleton.cs" />
      <Compile Include="Assets\ThirdParty\EasyTouch\Plugins\MovingJoystick.cs" />
      <Compile Include="Assets\ThirdParty\EasyTouch\Plugins\VirtualScreen.cs" />
+     <Compile Include="Assets\ThirdParty\InGameLogs\InGameLog.cs" />
      <Compile Include="Assets\ThirdParty\Tween\Gizmo.cs" />
      <Compile Include="Assets\ThirdParty\Tween\iTween.cs" />
      <Compile Include="Assets\ThirdParty\Tween\iTweenHinting.cs" />

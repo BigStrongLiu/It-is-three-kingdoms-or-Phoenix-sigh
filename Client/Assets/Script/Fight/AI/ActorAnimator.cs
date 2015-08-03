@@ -64,6 +64,12 @@ public class ActorAnimator : MonoBehaviour
     {
         this.SetBool(AnimatorConst.SkillDic[skillIndex]);
     }
+    public bool IsCompleteAttackAnimation()
+    {
+        if (this.m_Animator.IsInTransition(0)) return false;
+        AnimatorStateInfo info = this.m_Animator.GetCurrentAnimatorStateInfo(0);
+        return info.IsName(AnimatorConst.Idle);
+    }
 
     #endregion
 }

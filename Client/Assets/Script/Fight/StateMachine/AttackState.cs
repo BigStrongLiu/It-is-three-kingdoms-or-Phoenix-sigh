@@ -11,12 +11,12 @@ public class AttackState : StateBase
     public override void Enter()
     {
         this.actorAI.Attack();
-        this.actorBev.DelayMovesComplete();
     }
 
     public override void Execute()
     {
-
+        if (this.actorAI.Animator.IsCompleteAttackAnimation())
+            actorBev.AttackComplete();
     }
 
     public override void Exit()
