@@ -150,7 +150,7 @@ public class FightMgr : MonoBehaviour
     {
         this.ResetActor();
         this.m_RandCount++;
-        Debug.Log("第" + (this.m_RandCount + 1) + "回合");
+        //Debug.Log("第" + (this.m_RandCount + 1) + "回合");
         if (this.m_RandCount == FightConst.MaxRoundCount)
         {
             this.GameOver();
@@ -219,7 +219,7 @@ public class FightMgr : MonoBehaviour
     private IEnumerator StartGame()
     {
         yield return null;
-        Debug.Log("第" + (this.m_RandCount + 1) + "回合");
+        //Debug.Log("第" + (this.m_RandCount + 1) + "回合");
         this.NextActorMoves();
     }
 
@@ -258,7 +258,7 @@ public class FightMgr : MonoBehaviour
 
     private void ActorMoves(ActorBevBase actorBev)
     {
-        Debug.Log("出招 " + actorBev.name);
+        //Debug.Log("出招 " + actorBev.name);
         ActorBevBase target = this.GetTarget(actorBev);
         if (target == null)
         {
