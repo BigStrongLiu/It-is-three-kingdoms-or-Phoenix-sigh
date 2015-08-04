@@ -1,0 +1,738 @@
+﻿Color.Red=[FF0000]
+Color.LightGreen=[009100]
+Color.DarkOrange =[FF8C00]
+Color.DarkGreen=[006400]
+Color.Brown =[5F311E]
+Color.Grey =[808080]
+Color.White = [FFFFFF]
+Color.Green= [00FF00]
+Color.Blue= [326BF9]
+Color.Purple = [D318D3]
+Color.Orange = [FF4500]
+Color.Gold = [FFD700]
+Color.Positive = [C5E046]
+Color.Negative = [F93B00]
+Color.Enough = [00FF00]
+Common.Label.Sound = 音效
+Common.Label.Music = 音乐
+Common.Label.Fraction = {0}/{1}
+Common.Label.OutoutRate = {0}/小时
+Common.Label.OwnCount = 拥有{0}个
+Common.Label.GetWay = 获取途径
+Common.Label.TenThousand = {0}万
+Common.Label.HundredMillion = {0}亿
+Common.Label.Count = 数量：{0}
+Common.Label.Gold = 金币
+Common.Label.Ingot = 元宝
+
+Common.zhOfNumber.0 = 零
+Common.zhOfNumber.1 = 一
+Common.zhOfNumber.2 = 二
+Common.zhOfNumber.3 = 三
+Common.zhOfNumber.4 = 四
+Common.zhOfNumber.5 = 五
+Common.zhOfNumber.6 = 六
+Common.zhOfNumber.7 = 七
+Common.zhOfNumber.8 = 八
+Common.zhOfNumber.9 = 九
+Common.zhOfNumber.10 = 十
+
+
+Common.Button.Share = 分享
+Common.Button.Sure = 确定
+Common.Button.Cancel = 取消
+Common.Button.Back = 返回
+Common.Button.Continue = 继续
+Common.Button.Reset = 重置
+Common.Button.Help = 帮助
+Common.Button.Fight = 战斗
+Common.Button.Close =关闭
+Common.Button.Switch = 切换
+Common.Button.Refresh = 刷新
+Common.Button.Buy = 购买
+Common.Button.Max = 最大
+Common.Button.Iknow = 知道了
+Common.Button.Relogin = 重新登录
+Common.Button.Reload = 重新加载
+Common.Button.Quit = 退出
+Common.Button.Challenge = 挑战
+Common.Button.Receive = 领取
+Common.Button.Delete = 删除
+Common.Button.Add = +
+Common.Button.Sub = -
+
+Common.Time.DayAgo = {0}天之前
+Common.Time.HourAgo = {0}小时之前
+Common.Time.MinuteAgo = {0}分钟之前
+Common.Time.SecondAgo = {0}秒之前
+Common.Time.Now = 刚刚
+
+Alert.Label.Coding = 灯，等灯等灯！
+Alert.Label.IngotInsufficient = 你的元宝不足，是否前往宝藏店购买？
+Alert.Label.GoldInsufficient = 您的金币不够啦，赶快参加下面的活动获取更多的金币吧！
+Alert.Label.ExitGame = 是否退出游戏？
+Alert.Label.Disconnect = 网络连接已断开！
+Alert.Label.NotConnect = 网络未连接！请重试
+Alert.Label.InvalidParameter = 无效参数
+Alert.Label.FunctionNotOpen = 功能未开放
+
+ClientErrorCode.FormationDataOutSync = 阵容数据异常
+ClientErrorCode.LearnSkillDataOutSync= 学习技能数据异常
+ClientErrorCode.SwitchEquipDataOutSync= 装备数据异常
+ClientErrorCode.UpgradeActorDataOutSync=英雄升级数据异常
+ClientErrorCode.UpgradeActorQualityDataOutSync= 英雄升品质数据异常
+ClientErrorCode.UpgradeActorStarDataOutSync= 英雄升星数据异常
+ClientErrorCode.UsePropDataOutSync= 使用道具数据异常
+ClientErrorCode.UpgradeEquipDataOutSync= 升级装备数据异常
+ClientErrorCode.UpgradeEquipEnchantDataOutSync= 装备附魔数据异常
+
+ResistanceType.Earth = 土
+ResistanceType.Fire = 火
+ResistanceType.Gold = 金
+ResistanceType.Water = 水
+ResistanceType.Wood = 木
+
+ResistanceType.Earth.AP = 土攻{0}
+ResistanceType.Fire.AP = 火攻{0}
+ResistanceType.Gold.AP = 金攻{0}
+ResistanceType.Water.AP = 水攻{0}
+ResistanceType.Wood.AP = 木攻{0}
+
+Building.HeroUpgrade = 升级池
+Building.Hero = 英雄之家
+Building.BattleArray = 校场
+Building.Stage = 章节
+Building.Arena = 竞技场
+Building.General = 宫殿
+Building.Enchant = 附魔
+Building.Warehouse = 仓库
+Building.Achievement = 成就
+Building.Summon = 抽奖
+Building.NormalShop = 集市
+Building.BlackMarket = 黑市
+Building.MysteriousBusinessman = 神秘商人
+
+MainPanel.Label.TeamLV= 战队等级{0}
+MainPanel.Label.BuilCondition = 需要战队等级：{0}
+MainPanel.Button.ActivityPack = 活动礼包
+MainPanel.Button.FirstRecharge = 首充双倍
+MainPanel.Button.MysteriousBusinessman = 神秘商人
+MainPanel.Button.Building = 基础设施
+MainPanel.Button.Decorative = 装饰物
+MainPanel.Button.Land = 土地
+MainPanel.Button.Recharge = 首充
+MainPanel.Button.Gift = 礼包
+MainPanel.Button.Sign = 签到
+MainPanel.Button.OnlineGift = 在线礼包
+MainPanel.Button.Remove = 移除
+MainPanel.ShowTip.BuyActionPoint= 是否花费{0}元宝购买{1}点体力？（今日已购买{2}次)
+MainPanel.ShowTip.BuyActionPointNumberUseUp = 您今日的购买次数已用完，提升VIP等级可以获得购买次数，是否提升？
+MainPanel.ShowTip.UpgradeVIPFail = 您今天的购买次数已用完，明天再来吧！
+MainPanel.ShowTip.BuyActionPointSucceed = 成功购买体力
+MainPanel.Button.Mall = 商城
+MainPanel.Button.Fight  =战斗
+MainPanel.Button.Build = 建造
+
+BattleArrayPanel.Title = 阵容
+BattleArrayPanel.Label.Locked = 未解锁
+BattleArrayPanel.Label.Combat = 战力:{0}
+BattleArrayPanel.Button.Fight = 上阵
+BattleArrayPanel.Button.UnFight = 下阵
+BattleArrayPanel.Button.All = 全部
+BattleArrayPanel.Button.Defence = 肉盾
+BattleArrayPanel.Button.AP = 输出
+BattleArrayPanel.Button.HP = 辅助
+BattleArrayPanel.Button.Chagne = 换阵
+BattleArrayPanel.Button.StartFight = 开始战斗
+BattleArrayPanel.Alert.BattleArrayFull = 最多只能上阵{0}位英雄
+BattleArrayPanel.Alert.CaptainCan'tUnBattle = 队长不能下阵
+BattleArrayPanel.Alert.HeroDied = 该英雄已经阵亡，不能上阵
+BattleArrayPanel.Alert.Can'tEmpty = 阵容不能为空
+BattleArrayPanel.Alert.HeroLVInsufficient = 英雄等级不够
+BattleArrayPanel.Alert.HasUnbattleHero = 您未派出所有英雄，是否进入战斗？
+
+AttributeType.HP = 生命值
+AttributeType.AP = 攻击力
+AttributeType.Defence = 防御力
+AttributeType.Critical = 暴击等级
+AttributeType.Dodge = 闪避等级
+AttributeType.Speed = 速度
+AttributeType.CritDmgRate = 暴击伤害等级
+AttributeType.HealAmount = 治疗量等级
+AttributeType.EffHealRate = 被治疗等级
+AttributeType.HPGrowUp = 生命成长
+AttributeType.APGrowUp = 攻击成长
+AttributeType.DefenceGrowUp = 防御成长
+
+AttributeInfo.LV = LV.{0}
+AttributeInfo.Lv = Lv.{0}
+AttributeInfo.Level = 等级：{0}
+AttributeInfo.EnchantLV = 附魔等级
+
+HeroPanel.Title = 英雄
+HeroPanel.Label.CurrentStorageExp = 当前经验储存：{0}
+HeroPanel.Label.ToNextLevelExp = 下一级还需：{0}
+HeroPanel.Label.ConsumeCoin = 消耗金币：{0}
+HeroPanel.Label.Skill = 技能
+HeroPanel.Label.LV = LV{0}
+HeroPanel.Label.Combat = 战{0}
+HeroPanel.Label.EnableEquip = 可装备
+HeroPanel.Label.EqupmentTip0 = 你必须穿齐所有装备才能进阶
+HeroPanel.Label.EqupmentTip1 = 进阶后会吞掉所有已穿戴装备
+HeroPanel.Label.SoulTip = 魂到{0}%后可填补丹药空缺
+HeroPanel.Label.DanYaoCount = 当前丹药数量：{0}
+HeroPanel.Label.Soul = 魂
+HeroPanel.Label.Potential = 潜能  {0}
+HeroPanel.Label.Earth = 土{0}
+HeroPanel.Label.Fire = 火{0}
+HeroPanel.Label.Gold = 金{0}
+HeroPanel.Label.Water = 水{0}
+HeroPanel.Label.Wood = 木{0}
+HeroPanel.Label.SkillPoint = 剩余技能点:
+HeroPanel.Label.SkillPointFull = 已满
+HeroPanel.Label.NeedHeroLV = 需要等级{0}
+HeroPanel.Label.NeedCoin = 金币:
+HeroPanel.Label.FightPower = 战斗力 {0}
+HeroPanel.Label.Exp = 经验值
+HeroPanel.Label.Composite = 可合成
+HeroPanel.Button.OneKeyUpgrade = 一键升级
+HeroPanel.Button.Info = 信息
+HeroPanel.Button.Equipment = 装备
+HeroPanel.Button.Evolution = 进化
+HeroPanel.Button.Skill = 技能
+HeroPanel.Button.LingZhu = 灵珠
+HeroPanel.Button.Upgrade = 升级
+HeroPanel.Button.Advanced = 进阶
+HeroPanel.Button.Study = 学习
+HeroPanel.Button.HeroAdvanced = 英雄进阶
+HeroPanel.Button.HeroEvolution = 英雄进化
+HeroPanel.Button.PotentialDan = 潜能丹
+HeroPanel.Button.ChangeLingZhu = 更换灵珠
+HeroPanel.Button.Illustrated = 图鉴
+HeroPanel.Button.Attribute = 属性
+HeroPanel.Button.Change = 更换
+HeroPanel.Button.UpgradeStar = 升星
+HeroPanel.Button.Strengthen = 强化
+HeroPanel.Alert.ChipInsufficient = 碎片不足，无法进化
+HeroPanel.Alert.DanYaoReplaceChip = 您的碎片不足，是否用{0}个丹药来替代？
+HeroPanel.Alert.PotentialInsufficient = 您的潜能点不足，以下方式可以增加潜能点
+HeroPanel.Alert.NoEquipment = 你当前部位没有能穿戴的装备
+HeroPanel.Alert.CantAdvanced = 所有装备达到{0}星才可进阶
+HeroPanel.Alert.SoulInsufficient = 当前英雄魂不足，无法进化
+HeroPanel.Alert.GoldInsufficient = 您的元宝不足，是否购买？
+HeroPanel.Alert.MaxQuality = 当前英雄已经最高品质
+HeroPanel.Alert.BuySkillPoint = 您将花费{0}元宝购买{1}点技能点
+
+HeroPanel.HudText.HpAttribute = 生命{0}
+HeroPanel.HudText.ApAttribute = 攻击力{0}
+HeroPanel.HudText.DefenseAttribute = 防御力{0}
+HeroPanel.HudText.CriticalRateAttribute = 暴击等级{0}
+HeroPanel.HudText.DodgeAttribute = 闪避等级{0}
+HeroPanel.HudText.SpeedAttribute = 速度{0}
+HeroPanel.HudText.CriticalDamageRate = 暴击伤害等级{0}
+HeroPanel.HudText.HealAmount = 治疗量{0}
+HeroPanel.HudText.EffHealRate = 被治疗率{0}
+
+HeroInfoComponent.Label.LifeGrowUp	=	生命成长 {0}
+HeroInfoComponent.Label.AttackGrowUp =	攻击成长 {0}
+HeroInfoComponent.Label.DefenseGrowUp =	防御成长 {0}
+
+HeroEvolution.Label.AttributeNewValue = {0}(+{1})
+
+FightSettingPanel.Button.Exit = 退出
+FightSettingPanel.Button.Continue = 继续
+FightSettingPanel.Button.ReStart = 重新开始
+FightSettingPanel.Button.Music = 音乐
+FightSettingPanel.Button.Sound = 音效
+
+StartFightPanel.Label.Start = 开始
+StartFightPanel.Label.Fight = 战斗
+
+BuildingUpgradePanel.Title.ReikiPool = 确定将灵气池升级到{0}级吗？
+BuildingUpgradePanel.Title.Goldmine = 确定将金矿升级到{0}级吗？
+BuildingUpgradePanel.Label.UpgradeRelyPlayerLevel = 主角等级{0}级可以升级
+BuildingUpgradePanel.Label.ReikiPoolOutputRate = 聚集力：{0}/小时 [00FF00]+{1}[FFFFFF]
+BuildingUpgradePanel.Label.ReikiPoolCapacity = 灵气容量：{0} [00FF00]+{1}[FFFFFF]
+BuildingUpgradePanel.Label.GoldmineOutputRate = 采集量：{0}/小时 [00FF00]+{1}[FFFFFF]
+BuildingUpgradePanel.Label.GoldmineCapacity = 金币容量：{0} [00FF00]+{1}[FFFFFF]
+BuildingUpgradePanel.Label.Success = 升级成功
+
+BuildingManagePanel.Title = {0}级金矿
+BuildingManagePanel.Label.HeroLevel = LV{0}
+BuildingManagePanel.Label.Growth = +{0}/小时
+BuildingManagePanel.Label.GoldmineOutputRate = 采集量：{0}/小时
+BuildingManagePanel.Label.GoldmineCapacity = 金币容量：{0}
+
+BrowsePropPanel.Title.ChooseHero = 选择英雄
+
+LoginPanel.Label.UserName = 用户名
+LoginPanel.Label.Password  = 密    码
+LoginPanel.Label.InputUserNameDefaultText = 请输入账号
+LoginPanel.Label.InputPasswordDefaultText = 请输入密码
+LoginPanel.Label.RegistserTitle = 注册账号
+LoginPanel.Button.Login = 登录
+LoginPanel.Button.Register = 注册
+LoginPanel.Alert.InputUserNameOrPassword = 请输入用户名或密码
+LoginPanel.Alert.UserNameNotExsit = 用户名不存在 
+LoginPanel.Alert.UserNameExsit = 用户名已存在 
+LoginPanel.Alert.UserNameOrPasswordError = 用户名或密码错误
+LoginPanel.Alert.UserNameIllegal = 用户名由数字或者字母组成，长度为3-30位
+LoginPanel.Alert.PasswordIllegal = 密码由数字、字母或者下划线组成，长度为6-15位
+LoginPanel.Alert.LoginSuccess = 登录成功
+LoginPanel.Alert.RegisterSuccess = 注册成功
+LoginPanel.Alert.HasDirty = 非法字符
+
+SrvStateEnum.NewSrv	=新
+SrvStateEnum.Crowded =火爆
+SrvStateEnum.Maintain =维护
+
+ServerPanel.Label.Server = {0}区  {1}
+ServerPanel.Label.Section = {0}区
+ServerPanel.Alert.ServerMaintain = 服务器维护中
+ServerPanel.Alert.NoServer = 没有可用服务器
+ServerPanelPanel.Button.SwitchServer = 点击换区
+
+SwitchServerPanel.Title = 选服
+SwitchServerPanel.Label.LastLogin = 上次登录的服务器：
+SwitchServerPanel.Label.ServerSection = 服务器 {0}
+SwitchServerPanel.Button.Recommend = 推荐
+
+LotteryPanel.Title = 抽奖
+LotteryPanel.Label.GoldOnceTimesTip = [572e0a]{0}次后必出[268cff]蓝色[572e0a]物品
+LotteryPanel.Label.WillGetBlue = [572e0a]本次必出[268cff]蓝色[572e0a]物品
+LotteryPanel.Label.IngotOnceTimesTip = [572e0a]{0}次后必出[9d190f]英雄
+LotteryPanel.Label.WillGetHero = [572e0a]本次必出[9d190f]英雄
+LotteryPanel.Label.HeroDescription = 恭喜您获得{0}品质英雄，重复英雄转化为碎片[FF0000]{1}[-]个
+LotteryPanel.Label.Free = 本次免费
+LotteryPanel.Label.FreeSize = 免费({0}/{1})
+LotteryPanel.Label.IngotTenTimes = [572e0a]必出[268cff]蓝色[572e0a]品质英雄
+LotteryPanel.Label.CountDown = 后免费
+
+LotteryResultPanel.Title = 抽奖
+LotteryResultPanel.Button.Detail = 详细
+
+ArenaPanel.Title = 竞技场
+ArenaPanel.Label.BattleArray = 防守阵容
+ArenaPanel.Label.MyRank = 我的排名:
+ArenaPanel.Label.LastTimes = 剩余次数：
+ArenaPanel.Label.Rank = 排名:
+ArenaPanel.Label.Combat = 挑战力:
+ArenaPanel.Label.CDTime = 挑战冷却时间: 
+ArenaPanel.Button.ChangeBattleArray = 换阵
+ArenaPanel.Button.Rule = 规则说明
+ArenaPanel.Button.Top = 排行榜
+ArenaPanel.Button.BattleReport = 对战记录
+ArenaPanel.Button.Exchange = 兑换奖励
+ArenaPanel.Button.BuyTimes = 购买次数
+ArenaPanel.Button.Refresh = 搜寻对手
+ArenaPanel.Button.ResetCD = 重置CD
+ArenaPanel.Button.Challenge = 挑战
+ArenaPanel.Alert.PlayerChallenging = 该玩家正在被他人挑战中
+ArenaPanel.Alert.AutoRefresh = 排行榜名次发生变化，已刷新排行
+ArenaPanel.Alert.ChallengeCountIsNotEnough = 今日挑战次数不足！
+ArenaPanel.Alert.ChallengeIsCD = 挑战时间未冷却！
+ArenaPanel.Alert.InexistenceRival = 不存在的对手！
+ArenaPanel.Alert.OwnerInFighting = 正在被人攻击！
+ArenaPanel.Alert.RivalInFighting = 对手处于交战中！
+ArenaPanel.Alert.BuyTimes = 是否花费50元宝购买一次挑战机会？
+ArenaPanel.Alert.ResetCD = 是否花费50元宝重置挑战CD？
+ArenaPanel.Alert.Refresh = 是否刷新？
+
+ArenaTopPanel.Title = 竞技排行
+ArenaTopPanel.Label.Top1 = 1st
+ArenaTopPanel.Label.Top2 = 2nd
+ArenaTopPanel.Label.Top3 = 3rd
+
+ArenaBattleReportPanel.Title = 战报
+ArenaBattleReportPanel.Label.HoursAgo = {0}小时之前
+ArenaBattleReportPanel.Label.WithinanHour = 1小时内
+ArenaBattleReportPanel.Label.SelfVictory = 恭喜您战胜了{0}，排名上升{1}名
+ArenaBattleReportPanel.Label.SelfFail = 很遗憾，你挑战{0}失败了
+ArenaBattleReportPanel.Label.RivalVictory = 您被{0}挑战成功，排名降低{1}名
+ArenaBattleReportPanel.Label.RivalFail = {0}挑战您失败了
+
+ArenaVictoryPanel.Title = 胜利
+ArenaVictoryPanel.Label.History = 历史最高排名:{0}
+ArenaVictoryPanel.Label.Current = 当前排名:{0}
+ArenaVictoryPanel.Label.Award = 可获得奖励:
+ArenaVictoryPanel.Label.AwardTip = 奖励通过邮箱发送
+
+UpgradePanel.Title = 沐光池
+UpgradePanel.Label.ReikiStorage = 灵气储存  {0}
+UpgradePanel.Alert.ReikiInsufficient = 当前灵气不足，不能升级。
+UpgradePanel.Alert.CoinInsufficient = 当前金币不足，不能升级。
+
+LingZhuSummonPanel.Title = 灵珠召唤（{0}/{1}）
+LingZhuSummonPanel.Button.SummonXianLing = 召唤仙灵珠
+LingZhuSummonPanel.Button.SummonTenTimes = 召唤十次
+LingZhuSummonPanel.Button.EquipLingZhu = 装备灵珠
+LingZhuSummonPanel.Button.NormalSummon = 普通召唤
+LingZhuSummonPanel.Button.JuLingSummon = 聚灵召唤
+LingZhuSummonPanel.Button.LongLingSummon = 龙灵召唤
+LingZhuSummonPanel.Button.XianLingSummon = 仙灵召唤
+LingZhuSummonPanel.Button.ShengLingSummon = 圣灵召唤
+LingZhuSummonPanel.Alert.SpaceInsufficient = 您的储存空间不足，请清理灵珠存储空间
+
+LingZhuPanel.Title = 灵珠
+
+LingZhuChangePanel.Title = 灵珠佩戴
+
+LingZhuUpgradePanel.Title = 灵珠升级
+
+ExperienceOutputPanel.Title = 聚灵池
+ExperienceOutputPanel.Label.ReikiGather = 灵气聚集力
+ExperienceOutputPanel.Label.MaxCapacity = 最大储存
+
+GoldmineManagePanel.Title = 金矿
+GoldmineManagePanel.Label.MaxCapacity = 最大储存
+GoldmineManagePanel.Label.CollectionAmount = 采集量
+
+VIPPanel.Title = 充值系统
+VIPPanel.Label.VIP= VIP{0}
+VIPPanel.Label.PrivilegeTile= VIP{0}特权（需充值{1}金子）
+VIPPanel.Label.Tip = 婊砸！再充值{0}元宝可以升级到VIP{1}哈！
+VIPPanel.Button.Recharge = 充值
+
+AnnouncementPanel.Alert.PostFail = 管理员抢走了麦克风，请稍后重试
+
+DailyTaskPanel.Title = 代码狗的日常
+TaskPanel.Title  = 任务
+TaskPanel.Label.Completed = 已完成
+TaskPanel.Label.Award = 奖励：
+TaskPanel.Label.Score = {0}活跃
+TaskPanel.Button.Goto = 前往
+TaskPanel.Button.Receive = 领取
+
+TaskState.NotOpened =任务未开启
+TaskState.Completed = 领取
+TaskState.Opened = 任务未完成
+TaskState.Awarded = 奖励已领取
+
+TaskRewardReceivingErrorCode.IntegralNotEnough = 积分不足
+TaskRewardReceivingErrorCode.IntegralRewardIDError = 积分奖励
+TaskRewardReceivingErrorCode.PackageNotExistent = 包裹不存在
+TaskRewardReceivingErrorCode.TaskRewardHaveReceived = 任务奖励已领取
+TaskRewardReceivingErrorCode.TaskRewardNotReceive = 任务奖励未领取
+
+TaskStateErrorCode.Awarded = 奖励已领取
+TaskStateErrorCode.NotOpened = 任务未开启
+
+MailPanel.Title = 邮件
+MailPanel.Label.MinuteAgo= {0}分钟以前
+MailPanel.Label.HourAgo= {0}小时以前
+MailPanel.Label.DayAgo= {0}天以前
+MailPanel.Label.SystemTip = 提示：系统奖励最多保存15天
+MailPanel.Label.LastReceive = 今日剩余领取点数：{0}
+MailPanel.Label.HasAttachment = 有附件
+MailPanel.Button.System = 系统邮件
+MailPanel.Button.Friend = 好友邮件
+MailPanel.Button.Receive = 领取
+MailPanel.Button.ReceiveAll = 全部领取并回赠
+MailPanel.Alert.ReceiveLimit = 您今日领取体力已达上限，无法领取
+
+MailContentPopupPanel.EmailAttachmentErrorCode.AttachmentIsNull = 附件不存在！
+MailContentPopupPanel.EmailAttachmentErrorCode.NoEmail = 没有此邮件！
+
+CommonShopPanel.NormalShop = 集市
+CommonShopPanel.BlackMarket = 黑市
+CommonShopPanel.ArenaShop = 竞技场商店
+CommonShopPanel.Label.ManualRefresh = 手动刷新
+CommonShopPanel.Label.RefreshTime= 下次刷新时间：今日{0}点
+CommonShopPanel.Label.BuyCount = 购买{0}个
+CommonShopPanel.Label.SurplusCount = 剩余{0}个
+CommonShopPanel.Alert.ArenaPointsNotEnough = 竞技场点数不足
+CommonShopPanel.Alert.InexistenceProp = 道具不存在
+CommonShopPanel.Alert.InexistenceShop = 商店已过期
+CommonShopPanel.Alert.PropSold = 道具已售
+
+MysteriousBusinessmanPanel.Title = 神秘商人
+MysteriousBusinessmanPanel.Label.LeaveTime = 神秘商人离开剩余时间:
+
+VictoryPanel.Label.Upgrade = UP
+VictoryPanel.Label.Victory = 胜利
+VictoryPanel.Button.Back = 回城
+VictoryPanel.Button.Again = 再来一次
+VictoryPanel.Button.Continue = 继续
+
+FailPanel.Label.Fail = 战斗失败
+FailPanel.Label.Tip = 胜败乃兵家常事，英雄不要气馁，以下几个地方可提升战力。
+FailPanel.Label.UpgradeSkill = 提升技能
+FailPanel.Label.UpgradeHero = 升级英雄
+FailPanel.Label.UpgradeQuality = 品质提升
+FailPanel.Button.Again = 重新挑战
+
+ChallengeLevelPanel.Label.LastTimes = 今日剩余挑战次数 {0}
+ChallengeLevelPanel.Label.BossDescription = 人物简介
+ChallengeLevelPanel.Label.FallAward = 掉落
+ChallengeLevelPanel.Label.Tip = 完美打通{0}章解锁
+
+WarehousePanel.Title = 仓库
+WarehousePanel.Label.ItemCount = 拥有数量: 
+WarehousePanel.Label.NeedSoulCount = 召唤需要武魂：{0}/{1}
+WarehousePanel.Label.Price = 出售单价：
+WarehousePanel.Label.ChooseSellCount = 请选择出售数量
+WarehousePanel.Button.All = 全部
+WarehousePanel.Button.Materials= 材料
+WarehousePanel.Button.Prop = 道具
+WarehousePanel.Button.Soul = 灵魂石
+WarehousePanel.Button.Equipment = 主角装备
+WarehousePanel.Button.Sell = 出售
+WarehousePanel.Button.Summon = 召唤
+WarehousePanel.Button.Fall = 掉落
+WarehousePanel.Button.Use =	使用 
+
+WarehousePanel.Alert.ActorIsFull = 英雄数量已达到上限
+WarehousePanel.Alert.PropNotEnough = 道具不足
+WarehousePanel.Alert.ActorExisting = 英雄已经存在
+WarehousePanel.Alert.NotActorID = 这个道具不能合成角色
+WarehousePanel.Alert.PropNotExist = 道具不存在
+
+AchievementPanel.Title = 成就
+AchievementPanel.Label.GeneralExp = 主公经验
+AchievementPanel.Label.PoolExp = 经验池经验
+AchievementPanel.Button.ActorAchievement = 角色成就
+AchievementPanel.Button.Level = 副本
+AchievementPanel.Button.Hero = 英雄
+AchievementPanel.Button.Equip = 装备
+AchievementPanel.Button.Reached = 已达成
+AchievementItemComponent.Label.YetGet = 已领取
+AchievementItemComponent.Label.Reward = 奖励:
+
+GeneralPanel.Title = 主公
+GeneralPanel.Label.LV = LV{0}
+GeneralPanel.Button.Info = 属性
+GeneralPanel.Button.Equipment = 装备
+GeneralPanel.Button.Weapon = 武器
+GeneralPanel.Button.Skill = 技能
+GeneralPanel.Button.Unequip = 卸载
+GeneralPanel.Button.Equip = 佩戴
+GeneralPanel.Button.Equiped = 已佩戴
+GeneralPanel.Button.Learn = 学习
+GeneralPanel.Button.Change = 更换
+GeneralPanel.Alert.LoadSkillLimited = 您最多只能佩戴{0}个技能
+
+PracticePanel.Title = 修炼
+PracticePanel.Label.LV = {0}级
+PracticePanel.Button.Cost = 消耗{0}颗修炼丹
+PracticePanel.Button.Upgrade = 升级
+
+TalentPanel.Title = 天赋
+TalentPanel.Label.TalentPoint = 天赋点数{0}
+TalentPanel.Label.HuiMie = 毁灭
+TalentPanel.Label.ShenYou = 神佑
+TalentPanel.Label.WuDu = 巫毒
+TalentPanel.Button.Reset = 重置
+TalentPanel.Button.Sure = 确认分配
+
+EnchantPanel.Title = 装备附魔
+EnchantPanel.Label.Tip = 您要为哪件装备附魔，请选择。
+EnchantPanel.Label.AddEnchantLV = 附魔等级+{0}
+EnchantPanel.Button.Enchant = 附魔
+EnchantPanel.Button.OneKeyEnchant = 一键附魔
+EnchantPanel.Button.WaitAMinute = 等会
+EnchantPanel.Alert.OneKeyEnchant = 一键附魔需要消耗{0}元宝，是否进行？
+EnchantPanel.Alert.EnchantMax = 已附魔至顶级
+EnchantPanel.Alert.GreaterThanOneStarLV = 2星以上装备才能进行附魔
+EnchantPanel.Alert.UseFull = 此材料已用完
+
+GeneralUpgradePopupPanel.Label.LV = LV {0} -> LV {1}
+GeneralUpgradePopupPanel.Label.ActionPoint = {0} -> {1}
+
+StartPanel.Alert.QuickRegisterFail = 快速注册失败！
+
+SignPanel.Title = 签到
+SignPanel.Label.Double = 双倍
+SignPanel.Label.SignMonth = {0}月签到奖励
+SignPanel.Label.SignCount = 本月已累计签到   次
+SignPanel.Label.SurplusSupplementSignCount = 本月剩余补签次数：
+SignPanel.Button.SupplementSign = 补签
+SignPanel.Tip.SupplementSign = 本月已补签{0}次，本次补签将消耗{1}元宝，是否继续？
+SignPanel.Tip.VIP = 您目前还未达到领取双倍的要求哦，赶快前去提升VIP等级吧
+
+ChiYouMuPanel.Title = 蚩尤墓
+ChiYouMuPanel.Label.Level = 第{0}关
+ChiYouMuPanel.Label.InMap = 点击进入内层
+ChiYouMuPanel.Label.ReceiveReward = 点击领取奖励
+ChiYouMuPanel.Label.OutMap = 返回外层
+ChiYouMuPanel.Button.Exchange= 兑换奖励
+ChiYouMuPanel.Button.Reset = 重置
+ChiYouMuPanel.Alert.Reset =重置后将重新开始探索，你确定重置蚩尤墓？
+ChiYouMuPanel.Alert.ResetCountInsufficient = 重置次数不足
+ChiYouMuPanel.Label.ResidueDegreeLabel = 今日剩余次数
+
+GiftType.FirstRecharge = 首充礼包
+GiftType.Lv = 成长礼包
+GiftType.OpenService=开服礼包
+GiftType.CombatReadiness = 战备计划
+GiftType.ContinuousLanding = 登录礼包
+
+GiftPanel.Title= 礼包
+GiftPanel.Label.RechargeTip = 亲~~首次充值可获得超值礼包哦~~
+GiftPanel.Label.RechargeAwardTip = 首次充值任意金额不但可获得双倍金额的返还，更可获得价值1288元的超值奖励哦！
+GiftPanel.Label.ReachAwardTip = 达到相应等级可获得丰厚奖励哦
+GiftPanel.Label.ReachLV = 达到{0}级可获得如下奖励
+GiftPanel.Label.VIPTip = 亲~~达到VIP2可以购买战备计划哦，总计可返还4888元宝哦
+GiftPanel.Label.InputTip = 请输入礼包码：
+GiftPanel.Label.OpenserverTip = 累计登录可获得更多奖励哦
+GiftPanel.Label.OpenserverCondition = 累计登录{0}天可领取
+GiftPanel.Label.LoginTip = 连续登录可获得更多奖励哦
+GiftPanel.Label.LoginCondition = 连续登录{0}天可领取
+GiftPanel.Label.WarPreparednessCondition = 达到{0}级可领取
+GiftPanel.Label.Exchange =礼包兑换
+
+GiftPanel.Button.Recharge = 充值
+GiftPanel.Button.Receive = 领取
+GiftPanel.Button.Received = 已领取
+GiftPanel.Button.UpgradeLV= 前往冲级
+GiftPanel.Button.ReceiveGift= 领取礼包
+GiftPanel.Alert.BuyWarPreparedness= 您还未达到VIP2，快去提升吧！
+GiftPanel.Alert.GiftKeyNotMatch = 礼包码由数字、字母（区分大小写）组成，长度为16位
+GiftPanel.Alert.ReceiveGift= 未达到礼包领取要求
+
+EveryDayGiftItemComponent.Lable.Day = 第{0}天
+GiftItemComponent.Label.NewServerGiftTitle = 新人第    天可领取
+GiftItemComponent.Label.GrowUpGiftTitle = Lv.   可领取
+GiftItemComponent.Label.UpgradeGiftTitle = Lv.   可领取
+GiftItemComponent.Label.FirstChargeGiftTitle = 首冲大礼包
+
+
+BuildErrorCode.LvNotEnough = 主将等级不足
+BuildErrorCode.PlayerMismatching = 玩家失去匹配
+BuildErrorCode.ExceedMaxBuildCount = 超过最大建造数量
+BuildErrorCode.CanNotCollection = 不能收集
+BuildErrorCode.CanNotClear = 不能清除
+BuildErrorCode.NotMove = 不能移动
+BuildErrorCode.BuildingNotExist = 建筑不存在
+BuildErrorCode.ResourcesNotEnough = 资源不够
+
+BackgroundPanel.Label.VersionNumber = 版本号 {0}
+BackgroundPanel.Label.WelcomeBack = 欢迎回来，{0}
+BackgroundPanel.Button.Logout = 注销
+BackgroundPanel.Alert.AdjustNumber = 您确定要切换其他账号进行游戏么？
+
+ShowNewFunctionPanel.Lable.Title = 新功能抢先看
+ShowNewFunctionPanel.Button.IKnow = 知道了
+
+SellPanel.Lable.HaveNumber = 拥有数量：{0}
+SellPanel.Lable.UnitPrice = 物品单价：{0}
+SellPanel.Lable.SellNumber = 出售数量：
+SellPanel.Lable.GetMoneyTitle = 获得金钱:
+SellPanel.Lable.SellorMaxNum = {0}/{1}
+SellPanel.Button.MaxNumber= 最大
+SellPanel.Button.Sell= 出售
+SellPanel.Alert.SellMinNum = 出售数量已经达到最小了
+SellPanel.Alert.SellMaxNum = 出售数量已经达到最大了
+
+FallPanel.Label.OwnCount = 拥有数量：{0}
+
+ChiYouMuErrorCode.ActorAlreadyDie = 角色已死
+ChiYouMuErrorCode.CheckpointNumMismatching= 关卡数不匹配
+ChiYouMuErrorCode.CYCurrencyNumNotEnough= 蚩尤墓币不足
+ChiYouMuErrorCode.EnemyDataError= 敌人数据错误
+ChiYouMuErrorCode.LvNotEnough= 战队等级不足
+ChiYouMuErrorCode.NotFindLvPlayer= 没找到匹配的玩家
+ChiYouMuErrorCode.PackageNotExistent= 包裹不存在
+ChiYouMuErrorCode.PackageNotReceiving= 包裹未领取
+ChiYouMuErrorCode.ActorLvNotEnough= 英雄等级不够
+
+GiftErrorCode.GiftAlreadyReceived =礼包已收取过
+GiftErrorCode.GiftNotExist=礼包不存在
+GiftErrorCode.GiftNotReached=礼包未达成
+GiftErrorCode.PackageNotExist=礼包的奖励包不存在
+
+SignInErrorCode.AlreadySignIn=已签
+SignInErrorCode.DayCountNotEnough=天数不足
+SignInErrorCode.ShoeShapedGoldNotEnough=宝石不足
+
+MallPanel.Title = 商城
+MallPanel.Label.Recharge = 再充值                     即可成为
+MallPanel.Label.Price = {0}元
+MallPanel.Label.Privilege = 等级特权
+MallPanel.Button.Privilege = 特权
+MallPanel.Button.Recharge = 充值
+MallPanel.Button.Check = 查看
+
+StagePanel.Title = 战斗
+StagePanel.Lable.RecommendCombat = 推荐战斗力:
+StagePanel.Lable.MaybeGet = 可能获得
+StagePanel.Lable.Enemy = 主要敌人
+StagePanel.Lable.SurplusTimes= [572e0a]今日剩余挑战次数:[-][ca0e00]{0}[-]
+StagePanel.Lable.ActionPointCost =[572e0a]体力消耗:[-][ca0e00]{0}[-]
+StagePanel.Button.Normal = 普通
+StagePanel.Button.Elite = 精英
+StagePanel.Button.WipeOut = 扫荡
+StagePanel.Button.WipeOut10 = 扫荡10次
+StagePanel.Button.Fight = 战斗
+
+
+NewStageItemComponent.LocalLabel.IsGet = 可领取
+NewStageItemComponent.LocalLabel.GetStarCount = {0}/{1}
+
+EquipmentUpgradePanel.Label.EnchantingLv = 附魔等级:{0}
+EquipmentUpgradePanel.Label.EquipMaxLvLabel = 已达最高等级
+EquipmentUpgradePanel.Label.UpgradeCost = 升级消耗
+EquipmentUpgradePanel.Label.NeedActorLV = 需要英雄等级：{0}
+EquipmentUpgradePanel.Button.Upgrade = 升级
+EquipmentUpgradePanel.Alert.UpgradeFail = 升级失败
+EquipmentUpgradePanel.Alert.UpgradeSucceed = 升级成功
+
+
+PlayerPanel.Title = 信息
+PlayerPanel.Label.GeneralLV = 主将等级:{0}
+PlayerPanel.Label.TeamID = 战队ID:{0}
+PlayerPanel.Label.TeamLV = 战队等级:{0}
+PlayerPanel.Label.TeamExp = 战队经验:{0}/{1}
+PlayerPanel.Label.InputNewName = 请输入新名字
+PlayerPanel.Label.Cost = 消耗
+PlayerPanel.Button.CloseMusic = 关闭音乐
+PlayerPanel.Button.OpenMusic = 开启音乐
+PlayerPanel.Button.CloseSound = 关闭音效
+PlayerPanel.Button.OpenSound = 开启音效
+PlayerPanel.Button.ChangeName = 更改名字
+PlayerPanel.Button.VIP = VIP特权
+PlayerPanel.Button.SwitchAccount = 切换账号
+PlayerPanel.Alert.SwitchAccount= 是否切换账号？
+
+AlertPowerInfoComponent.Label.NowTimeLabel = 当前时间：{0}
+AlertPowerInfoComponent.Label.AlreadyBuyCountLabel = 已购买体力次数：{0}/{1}
+AlertPowerInfoComponent.Label.RecoverNextPointPowerLabel = 下一点体力恢复：
+AlertPowerInfoComponent.Label.RecoverTimeIntervalLabel = 恢复时间间隔：{0}分钟
+AlertPowerInfoComponent.Label.PowerFullLabel = 体力已满
+
+GetGoldPopupPanel.Title = 金币来源
+GetGoldPopupPanel.Label.MidasTouch = 点石成金
+GetGoldPopupPanel.Label.ChiYouMu = 蚩尤墓
+GetGoldPopupPanel.Label.GoldOre = 金矿
+GetGoldPopupPanel.Label.WipeOut = 扫荡
+
+MidasTouchPanel.Label.ToDayNumber = 今日点金可用次数：{0}/{1}
+MidasTouchPanel.Button.UseMidasTouch = 使用
+
+CommonVictoryPanel.LV = Lv.{0}
+ChiYouMuVictoryPanel.Title = 战斗胜利
+
+SwitchTestServerPanel.Title = 登录服务器
+
+ChangeNickNamePopupPanel.ShowTip.HasDirty = 昵称存在非法字符
+ChangeNickNamePopupPanel.ShowTip.NameIllegal = 玩家名字长度为2-12位
+ChangeNickNamePopupPanel.ShowTip.NameEqual = 现在昵称已是需要更改的昵称
+ChangeNickNamePopupPanel.ShowTip.NameTrim = 昵称前后不能有空格
+
+ActionPointsErrorCode.ActionIsReceived = 体力已经领取过了
+ActionPointsErrorCode.BuyCountIsNotEnough = 体力购买次数不足
+ActionPointsErrorCode.TimeOut = 购买体力超时
+
+
+
+ModifyNickNameErrorCode.ShoeShapedGoldNotEnough = 元宝不足
+ModifyNickNameErrorCode.PlayerNotExistent = 玩家不存在
+ModifyNickNameErrorCode.NickNameRepeat = 昵称已存在
+ModifyNickNameErrorCode.Succeed = 改名成功
+
+QualityType.White = [FFFFFF]白色[-]
+QualityType.Green = [00FF00]绿色[-]
+QualityType.Blue = [326BF9]蓝色[-]
+QualityType.Purple = [D318D3]紫色[-]
+QualityType.Orange = [FF4500]橙色[-]
+QualityType.Red = [FF0000]红色[-]
+
