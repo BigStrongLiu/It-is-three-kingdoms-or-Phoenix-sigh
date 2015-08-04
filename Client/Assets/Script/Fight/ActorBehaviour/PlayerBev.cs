@@ -3,6 +3,6 @@
 
     protected override void SetActorType()
     {
-        this.SetActorType(ActorType.Player);
+        this.Type = ActorType.Player;
     }
 }
